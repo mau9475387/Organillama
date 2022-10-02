@@ -88,7 +88,6 @@ public class inicio extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         RELOJpnl = new javax.swing.JPanel();
         Reloj = new javax.swing.JLabel();
-        jCalendar1 = new com.toedter.calendar.JCalendar();
         organillamalbl = new javax.swing.JLabel();
         llamadevlogo = new javax.swing.JLabel();
         MinimizarBtn = new javax.swing.JPanel();
@@ -124,7 +123,6 @@ public class inicio extends javax.swing.JFrame {
 
         Reloj.setBackground(new java.awt.Color(255, 153, 102));
         Reloj.setFont(new java.awt.Font("alarm clock", 0, 100)); // NOI18N
-        Reloj.setForeground(new java.awt.Color(0, 0, 0));
         Reloj.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Reloj.setToolTipText("");
 
@@ -146,9 +144,6 @@ public class inicio extends javax.swing.JFrame {
         );
 
         jPanel1.add(RELOJpnl, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 550, 120));
-
-        jCalendar1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(jCalendar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 550, 420));
 
         organillamalbl.setFont(new java.awt.Font("Forte", 0, 70)); // NOI18N
         organillamalbl.setForeground(new java.awt.Color(51, 51, 51));
@@ -469,7 +464,6 @@ public class inicio extends javax.swing.JFrame {
     private javax.swing.JPanel csessionbtn;
     private javax.swing.JLabel fondoInicio;
     private javax.swing.JLabel iconocalendar;
-    private com.toedter.calendar.JCalendar jCalendar1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
