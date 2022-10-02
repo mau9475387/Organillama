@@ -4,6 +4,18 @@
     <groupId>a.organillamav1</groupId>
     <artifactId>OrganillamaV1</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>AbsoluteLayout</groupId>
+            <artifactId>RELEASE</artifactId>
+            <version>150</version>
+        </dependency>
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+    </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>18</maven.compiler.source>
