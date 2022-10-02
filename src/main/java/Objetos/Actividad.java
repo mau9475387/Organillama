@@ -9,9 +9,10 @@ package Objetos;
  * @author Mau
  */
 public class Actividad {
-    public String categoria;
-
     
+    private int     codigoActividad;
+    private int     codigoDueño;
+    public String categoria;
     public String nombreActividad;
     public String descripcionActividad;
     public String horaInicio;
@@ -21,10 +22,12 @@ public class Actividad {
     public String fechaFin;
     public boolean actividadConcluida;
     
-    public Actividad(String categoria,String nombreActividad,String descripcionActividad,
-                     String horaInicio,String horaFin,String fechaInicio,
-                     String fechaFin,boolean prioridad){
+    public Actividad(int codigoDueño,String categoria,String nombreActividad,
+                     String descripcionActividad,String horaInicio,
+                     String horaFin,String fechaInicio,String fechaFin,
+                     boolean prioridad){
         
+        this.codigoDueño          = codigoDueño;
         this.categoria            = categoria;
         this.nombreActividad      = nombreActividad;
         this.descripcionActividad = descripcionActividad;
