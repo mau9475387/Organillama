@@ -5,13 +5,14 @@ import java.util.ArrayList;
 
 public class Proyecto {
     ArrayList<Actividad> actividades;
+    private int ID;
     public String nombre;
     public String fechaInicio;
     public String fechaFin;
     public String colorProyecto; //modificar
     public boolean permiteChoques;
     
-    public Proyecto(String nombre,String fechaInicio, String fechaFin,
+    public Proyecto(int ID,String nombre,String fechaInicio, String fechaFin,
                     String colorProyecto,boolean pChoques,ArrayList<Actividad> actividades){
         this.nombre = nombre;
         this.fechaInicio    = fechaInicio;
@@ -19,6 +20,7 @@ public class Proyecto {
         this.colorProyecto  = colorProyecto;
         this.permiteChoques = pChoques;
         this.actividades    = actividades;
+        this.ID=ID;
     }
     
     //setters y getters
@@ -63,4 +65,11 @@ public class Proyecto {
     }
     
     
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 }

@@ -14,7 +14,7 @@ import javax.swing.ImageIcon;
  */
 public class registro extends javax.swing.JFrame {
 
-    private static final long serialVersionUID = 1L;
+    
 
     /**
      * Creates new form Arranque
@@ -59,7 +59,6 @@ public class registro extends javax.swing.JFrame {
         usuariotxt = new javax.swing.JTextField();
         passwordtxt = new javax.swing.JPasswordField();
         confirmarpasstxt = new javax.swing.JPasswordField();
-        fechadenaciminetotxt = new com.toedter.calendar.JDateChooser();
         FondoLlamaDevelopers = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -183,7 +182,6 @@ public class registro extends javax.swing.JFrame {
         passwordtxt.setFont(new java.awt.Font("Elephant", 0, 18)); // NOI18N
         jPanel1.add(passwordtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, 220, 30));
         jPanel1.add(confirmarpasstxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 220, 30));
-        jPanel1.add(fechadenaciminetotxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, 220, 30));
 
         FondoLlamaDevelopers.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -320,7 +318,6 @@ public class registro extends javax.swing.JFrame {
     private javax.swing.JLabel confirmarpasslbl;
     private javax.swing.JPasswordField confirmarpasstxt;
     private javax.swing.JLabel fechadenacimientolbl;
-    private com.toedter.calendar.JDateChooser fechadenaciminetotxt;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel passwordlbl;
     private javax.swing.JPasswordField passwordtxt;
